@@ -18,6 +18,6 @@ public class NativeActivity extends AppCompatActivity {
     }
 
     private void redirectToRNscreen(View view) {
-        currentActivity.startActivity(new Intent(this, reactContext.getClass()));
+        currentActivity.startActivity(new Intent(this, MainActivity.class));
     }
 }

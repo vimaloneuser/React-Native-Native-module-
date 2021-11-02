@@ -143,8 +143,8 @@ public class CalendarModule extends ReactContextBaseJavaModule {
         currentActivity = getCurrentActivity();
         try {
             BottomSheetMaterialDialog mDialog = new BottomSheetMaterialDialog.Builder(currentActivity)
-                    .setAnimation(R.raw.message_anim)
-                    .setTitle("Hey dude...", TextAlignment.END)
+                    .setAnimation(R.raw.delete_anim)
+                    .setTitle("Delete?", TextAlignment.END)
                     .setCancelable(true)
                     .setPositiveButton("Delete", R.drawable.delete, new MaterialDialog.OnClickListener() {
                         @Override
